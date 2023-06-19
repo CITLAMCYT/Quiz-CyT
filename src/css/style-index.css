@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap");
+* {
+  font-family: "Nunito";
+}
+
+.nav__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #5c82d4;
+}
+
+.img__first {
+  width: 15rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 20px;
+  background: #ffbd83;
+  padding-bottom: 50px;
+}
+
+.game {
+  padding: 5rem 0 0 0;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+#juego {
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+.contenedor-pregunta {
+  border: none;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 0 -10rem;
+  margin-bottom: 20px;
+  background: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+label {
+  padding: 1.5rem 0 0 2rem;
+  display: flex;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+input {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.correcta {
+  background-color: #a8f6eb;
+}
+
+.incorrecta {
+  background-color: #ff6666;
+}
+
+.acierto {
+  font-size: 20px;
+  background-color: yellowgreen;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  margin-left: 15px;
+}
+
+.no-acierto {
+  font-size: 20px;
+  background-color: darkred;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  margin-left: 15px;
+}
+
+.button__submit {
+  width: fit-content;
+  display: block;
+  margin: auto;
+  border: none;
+  background: #2b4378;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button__submit:hover {
+  background-color: #101e3c;
+}
+
+.resultado {
+  text-align: center;
+  padding: 1rem;
+}
+
+#recargar {
+  width: fit-content;
+  display: block;
+  margin: auto;
+  border: none;
+  background: #2b4378;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#recargar:hover {
+  background-color: #101e3c;
+}
